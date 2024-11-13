@@ -1,0 +1,10 @@
+dogs
+lions
+chairs
+laptops
+goats
+cows
+cherries
+roses
+boats
+cats

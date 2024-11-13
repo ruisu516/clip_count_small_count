@@ -1,0 +1,44 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-05-21T20:35:58.428383",
+    "startedAt": "2024-05-21T20:35:57.326147",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/ruisu516/CLIP_Counting.git",
+        "commit": "5a641604501b10f826809d12a656d9f4ff5c023c"
+    },
+    "email": "rzhang345@wisc.edu",
+    "root": "/Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting",
+    "host": "Ruisus-MacBook-Pro.local",
+    "username": "susu",
+    "executable": "/Users/susu/miniconda3/envs/clipcount/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 242.48595809936523
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

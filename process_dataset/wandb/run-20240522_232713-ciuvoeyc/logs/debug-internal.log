@@ -1,0 +1,182 @@
+2024-05-22 23:27:13,792 INFO    StreamThr :35497 [internal.py:wandb_internal():86] W&B internal server running at pid: 35497, started at: 2024-05-22 23:27:13.790446
+2024-05-22 23:27:13,793 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: status
+2024-05-22 23:27:13,793 INFO    WriterThread:35497 [datastore.py:open_for_write():87] open: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/run-ciuvoeyc.wandb
+2024-05-22 23:27:13,794 DEBUG   SenderThread:35497 [sender.py:send():379] send: header
+2024-05-22 23:27:13,794 DEBUG   SenderThread:35497 [sender.py:send():379] send: run
+2024-05-22 23:27:13,990 INFO    SenderThread:35497 [dir_watcher.py:__init__():211] watching files in: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files
+2024-05-22 23:27:13,990 INFO    SenderThread:35497 [sender.py:_start_run_threads():1124] run started: ciuvoeyc with start time 1716438433.052821
+2024-05-22 23:27:13,997 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: check_version
+2024-05-22 23:27:13,998 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: check_version
+2024-05-22 23:27:14,097 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: run_start
+2024-05-22 23:27:14,099 DEBUG   HandlerThread:35497 [system_info.py:__init__():26] System info init
+2024-05-22 23:27:14,099 DEBUG   HandlerThread:35497 [system_info.py:__init__():41] System info init done
+2024-05-22 23:27:14,099 INFO    HandlerThread:35497 [system_monitor.py:start():194] Starting system monitor
+2024-05-22 23:27:14,100 INFO    SystemMonitor:35497 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-22 23:27:14,100 INFO    HandlerThread:35497 [system_monitor.py:probe():214] Collecting system info
+2024-05-22 23:27:14,101 INFO    SystemMonitor:35497 [interfaces.py:start():190] Started cpu monitoring
+2024-05-22 23:27:14,101 DEBUG   HandlerThread:35497 [system_info.py:probe():150] Probing system
+2024-05-22 23:27:14,101 INFO    SystemMonitor:35497 [interfaces.py:start():190] Started disk monitoring
+2024-05-22 23:27:14,103 INFO    SystemMonitor:35497 [interfaces.py:start():190] Started memory monitoring
+2024-05-22 23:27:14,103 INFO    SystemMonitor:35497 [interfaces.py:start():190] Started network monitoring
+2024-05-22 23:27:14,104 DEBUG   HandlerThread:35497 [system_info.py:_probe_git():135] Probing git
+2024-05-22 23:27:14,184 DEBUG   HandlerThread:35497 [system_info.py:_probe_git():143] Probing git done
+2024-05-22 23:27:14,184 DEBUG   HandlerThread:35497 [system_info.py:probe():198] Probing system done
+2024-05-22 23:27:14,184 DEBUG   HandlerThread:35497 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.18', 'heartbeatAt': '2024-05-23T04:27:14.101398', 'startedAt': '2024-05-23T04:27:13.043244', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/ruisu516/CLIP_Counting.git', 'commit': '5a641604501b10f826809d12a656d9f4ff5c023c'}, 'email': 'rzhang345@wisc.edu', 'root': '/Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting', 'host': 'Ruisus-MacBook-Pro.local', 'username': 'susu', 'executable': '/Users/susu/miniconda3/envs/clipcount/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 460.4317207336426, 'used': 244.06301879882812}}, 'memory': {'total': 16.0}}
+2024-05-22 23:27:14,184 INFO    HandlerThread:35497 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-22 23:27:14,184 INFO    HandlerThread:35497 [system_monitor.py:probe():227] Publishing system info
+2024-05-22 23:27:14,184 DEBUG   HandlerThread:35497 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-22 23:27:14,996 INFO    Thread-6000:35497 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/conda-environment.yaml
+2024-05-22 23:27:15,601 DEBUG   HandlerThread:35497 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-22 23:27:15,601 INFO    HandlerThread:35497 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-22 23:27:15,603 DEBUG   SenderThread:35497 [sender.py:send():379] send: files
+2024-05-22 23:27:15,603 INFO    SenderThread:35497 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-05-22 23:27:15,703 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: python_packages
+2024-05-22 23:27:15,703 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: python_packages
+2024-05-22 23:27:15,706 DEBUG   SenderThread:35497 [sender.py:send():379] send: telemetry
+2024-05-22 23:27:15,706 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-22 23:27:15,706 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: stop_status
+2024-05-22 23:27:15,707 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-22 23:27:15,719 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-22 23:27:15,841 DEBUG   SenderThread:35497 [sender.py:send():379] send: files
+2024-05-22 23:27:15,842 INFO    SenderThread:35497 [sender.py:_save_file():1390] saving file media/images/image_0_db4cf81de8922efa1769.png with policy now
+2024-05-22 23:27:15,851 DEBUG   SenderThread:35497 [sender.py:send():379] send: history
+2024-05-22 23:27:15,855 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: summary_record
+2024-05-22 23:27:15,860 INFO    SenderThread:35497 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-22 23:27:15,863 DEBUG   SenderThread:35497 [sender.py:send():379] send: telemetry
+2024-05-22 23:27:15,863 DEBUG   SenderThread:35497 [sender.py:send():379] send: exit
+2024-05-22 23:27:15,863 INFO    SenderThread:35497 [sender.py:send_exit():586] handling exit code: 0
+2024-05-22 23:27:15,863 INFO    SenderThread:35497 [sender.py:send_exit():588] handling runtime: 1
+2024-05-22 23:27:15,864 INFO    SenderThread:35497 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-22 23:27:15,866 INFO    SenderThread:35497 [sender.py:send_exit():594] send defer
+2024-05-22 23:27:15,867 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,867 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 0
+2024-05-22 23:27:15,868 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,868 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-05-22 23:27:15,868 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 1
+2024-05-22 23:27:15,869 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,869 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 1
+2024-05-22 23:27:15,870 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,870 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-05-22 23:27:15,870 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 2
+2024-05-22 23:27:15,870 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,870 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 2
+2024-05-22 23:27:15,870 INFO    HandlerThread:35497 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-22 23:27:15,871 DEBUG   SystemMonitor:35497 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-22 23:27:15,871 INFO    HandlerThread:35497 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-22 23:27:15,871 DEBUG   SystemMonitor:35497 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-22 23:27:15,872 INFO    HandlerThread:35497 [interfaces.py:finish():202] Joined disk monitor
+2024-05-22 23:27:15,872 DEBUG   SystemMonitor:35497 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-22 23:27:15,872 INFO    HandlerThread:35497 [interfaces.py:finish():202] Joined memory monitor
+2024-05-22 23:27:15,872 INFO    HandlerThread:35497 [interfaces.py:finish():202] Joined network monitor
+2024-05-22 23:27:15,873 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,873 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-05-22 23:27:15,873 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 3
+2024-05-22 23:27:15,873 DEBUG   SenderThread:35497 [sender.py:send():379] send: stats
+2024-05-22 23:27:15,873 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,873 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 3
+2024-05-22 23:27:15,873 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,873 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-05-22 23:27:15,873 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 4
+2024-05-22 23:27:15,873 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,873 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 4
+2024-05-22 23:27:15,873 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,874 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-05-22 23:27:15,874 INFO    wandb-upload_0:35497 [upload_job.py:push():131] Uploaded file /var/folders/4j/67lfjs0x0p7ckntx_cls4nkr0000gn/T/tmp3ukxjkiowandb/alo9hlbu-wandb-metadata.json
+2024-05-22 23:27:15,874 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 5
+2024-05-22 23:27:15,874 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,874 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 5
+2024-05-22 23:27:15,874 DEBUG   SenderThread:35497 [sender.py:send():379] send: summary
+2024-05-22 23:27:15,874 INFO    SenderThread:35497 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-22 23:27:15,875 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,875 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-05-22 23:27:15,875 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 6
+2024-05-22 23:27:15,875 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,875 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 6
+2024-05-22 23:27:15,875 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,875 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-05-22 23:27:15,877 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: status_report
+2024-05-22 23:27:15,967 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 7
+2024-05-22 23:27:15,967 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,967 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 7
+2024-05-22 23:27:15,967 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,967 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-05-22 23:27:15,967 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 8
+2024-05-22 23:27:15,967 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,967 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 8
+2024-05-22 23:27:15,967 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,967 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-05-22 23:27:15,967 INFO    SenderThread:35497 [job_builder.py:build():318] Attempting to build job artifact
+2024-05-22 23:27:15,968 INFO    SenderThread:35497 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-05-22 23:27:15,968 INFO    SenderThread:35497 [job_builder.py:_get_program_relpath():473] run is notebook based run
+2024-05-22 23:27:15,968 WARNING SenderThread:35497 [job_builder.py:_log_if_verbose():210] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2024-05-22 23:27:15,968 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 9
+2024-05-22 23:27:15,968 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:15,968 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 9
+2024-05-22 23:27:15,968 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:15,968 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-05-22 23:27:15,968 INFO    SenderThread:35497 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-22 23:27:16,000 INFO    SenderThread:35497 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/conda-environment.yaml
+2024-05-22 23:27:16,000 INFO    SenderThread:35497 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/config.yaml
+2024-05-22 23:27:16,000 INFO    SenderThread:35497 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/wandb-metadata.json
+2024-05-22 23:27:16,000 INFO    SenderThread:35497 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/requirements.txt
+2024-05-22 23:27:16,000 INFO    SenderThread:35497 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/wandb-summary.json
+2024-05-22 23:27:16,000 INFO    SenderThread:35497 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/media/images/image_0_db4cf81de8922efa1769.png
+2024-05-22 23:27:16,001 INFO    SenderThread:35497 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/media/images
+2024-05-22 23:27:16,001 INFO    SenderThread:35497 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/media
+2024-05-22 23:27:16,001 INFO    SenderThread:35497 [dir_watcher.py:finish():388] scan: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files
+2024-05-22 23:27:16,001 INFO    SenderThread:35497 [dir_watcher.py:finish():402] scan save: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/requirements.txt requirements.txt
+2024-05-22 23:27:16,001 INFO    SenderThread:35497 [dir_watcher.py:finish():402] scan save: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/config.yaml config.yaml
+2024-05-22 23:27:16,002 INFO    SenderThread:35497 [dir_watcher.py:finish():402] scan save: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/wandb-summary.json wandb-summary.json
+2024-05-22 23:27:16,002 INFO    SenderThread:35497 [dir_watcher.py:finish():402] scan save: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/conda-environment.yaml conda-environment.yaml
+2024-05-22 23:27:16,002 INFO    SenderThread:35497 [dir_watcher.py:finish():402] scan save: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/wandb-metadata.json wandb-metadata.json
+2024-05-22 23:27:16,002 INFO    SenderThread:35497 [dir_watcher.py:finish():402] scan save: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/media/images/image_0_db4cf81de8922efa1769.png media/images/image_0_db4cf81de8922efa1769.png
+2024-05-22 23:27:16,002 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 10
+2024-05-22 23:27:16,002 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:16,003 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 10
+2024-05-22 23:27:16,006 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:16,007 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-05-22 23:27:16,007 INFO    SenderThread:35497 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-22 23:27:16,047 INFO    wandb-upload_1:35497 [upload_job.py:push():131] Uploaded file /var/folders/4j/67lfjs0x0p7ckntx_cls4nkr0000gn/T/tmp3ukxjkiowandb/13txkgix-media/images/image_0_db4cf81de8922efa1769.png
+2024-05-22 23:27:16,189 INFO    wandb-upload_0:35497 [upload_job.py:push():131] Uploaded file /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/requirements.txt
+2024-05-22 23:27:16,225 INFO    wandb-upload_2:35497 [upload_job.py:push():131] Uploaded file /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/config.yaml
+2024-05-22 23:27:16,280 INFO    wandb-upload_4:35497 [upload_job.py:push():131] Uploaded file /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/conda-environment.yaml
+2024-05-22 23:27:16,284 INFO    wandb-upload_3:35497 [upload_job.py:push():131] Uploaded file /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/files/wandb-summary.json
+2024-05-22 23:27:16,351 INFO    wandb-upload_1:35497 [upload_job.py:push():131] Uploaded file /var/folders/4j/67lfjs0x0p7ckntx_cls4nkr0000gn/T/tmp3ukxjkiowandb/xpp11cf5-media/images/image_0_db4cf81de8922efa1769.png
+2024-05-22 23:27:16,556 INFO    Thread-5999:35497 [sender.py:transition_state():614] send defer: 11
+2024-05-22 23:27:16,557 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:16,557 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 11
+2024-05-22 23:27:16,557 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:16,557 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-05-22 23:27:16,557 INFO    SenderThread:35497 [file_pusher.py:join():178] waiting for file pusher
+2024-05-22 23:27:16,558 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 12
+2024-05-22 23:27:16,558 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:16,558 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 12
+2024-05-22 23:27:16,558 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:16,558 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-05-22 23:27:16,558 INFO    SenderThread:35497 [file_stream.py:finish():614] file stream finish called
+2024-05-22 23:27:16,597 INFO    SenderThread:35497 [file_stream.py:finish():618] file stream finish is done
+2024-05-22 23:27:16,597 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 13
+2024-05-22 23:27:16,597 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:16,597 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 13
+2024-05-22 23:27:16,598 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:16,598 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-05-22 23:27:16,598 INFO    SenderThread:35497 [sender.py:transition_state():614] send defer: 14
+2024-05-22 23:27:16,598 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: defer
+2024-05-22 23:27:16,598 DEBUG   SenderThread:35497 [sender.py:send():379] send: final
+2024-05-22 23:27:16,598 INFO    HandlerThread:35497 [handler.py:handle_request_defer():172] handle defer: 14
+2024-05-22 23:27:16,598 DEBUG   SenderThread:35497 [sender.py:send():379] send: footer
+2024-05-22 23:27:16,598 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: defer
+2024-05-22 23:27:16,598 INFO    SenderThread:35497 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-05-22 23:27:16,599 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-22 23:27:16,599 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: poll_exit
+2024-05-22 23:27:16,600 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-22 23:27:16,600 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: server_info
+2024-05-22 23:27:16,600 DEBUG   SenderThread:35497 [sender.py:send_request():406] send_request: server_info
+2024-05-22 23:27:16,600 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: get_summary
+2024-05-22 23:27:16,602 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: sampled_history
+2024-05-22 23:27:16,653 DEBUG   HandlerThread:35497 [handler.py:handle_request():146] handle_request: shutdown
+2024-05-22 23:27:16,653 INFO    HandlerThread:35497 [handler.py:finish():866] shutting down handler
+2024-05-22 23:27:17,602 INFO    WriterThread:35497 [datastore.py:close():296] close: /Users/susu/Library/CloudStorage/OneDrive-Personal/Wisc/clip_count_continued/CLIP_Counting/process_dataset/wandb/run-20240522_232713-ciuvoeyc/run-ciuvoeyc.wandb
+2024-05-22 23:27:17,653 INFO    SenderThread:35497 [sender.py:finish():1546] shutting down sender
+2024-05-22 23:27:17,653 INFO    SenderThread:35497 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-22 23:27:17,653 INFO    SenderThread:35497 [file_pusher.py:join():178] waiting for file pusher
